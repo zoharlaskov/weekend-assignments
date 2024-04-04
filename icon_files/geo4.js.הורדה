@@ -1,0 +1,17 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "NETANYA",
+      'continent': "AS",
+      'country': "IL",
+      'region': "",
+      'dma': ""
+    },
+    'ip':"109.186.68.151"
+  }]);
+})
+//
+()
+
+;
