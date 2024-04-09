@@ -1,0 +1,179 @@
+
+* {
+    
+    text-decoration: none;
+    
+}
+* ::before
+* ::after 
+    
+    
+   
+
+header {
+    font: inherit;
+    color: black;
+    border-bottom: 2px double gray;
+
+     }
+
+    
+     .buttons{
+   
+        gap: 1rem;
+        justify-items: flex-end;
+        justify-content: right;
+        display: flex;
+        top: 1rem;
+    }
+
+
+
+
+    nav div,ul,li,a .link {
+        text-decoration: none;   
+      color: black;
+      padding: 0.5rem; 
+      border-bottom: 2px double gray;
+    justify-content: center;
+    padding-bottom: 2px;
+    display: flex;
+    
+    }
+.logo img  {
+    margin: 0 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 10rem;
+    float: inherit;
+    
+}
+
+
+button .search-icon  {
+   
+ bottom: auto;
+  inline-size: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+   
+  
+  
+  
+   position: absolute;
+   left: 1;
+   
+}
+
+.date {
+    margin-right: 20px;
+    
+    justify-items: flex-start;
+    justify-content: left;
+    display: flex;
+
+}
+body {
+    
+
+text-size-adjust: 100%;
+font: inherit;
+vertical-align: baseline;
+line-height: 1;
+height: 100%;
+margin: 0;
+overflow-x: hidden;
+color: var(--color-content-primary,#121212);
+background: var(--color-background-primary,#FFFFFF);
+padding-top: 0px;
+   
+
+
+
+
+
+
+   
+}
+
+section.main-content {
+  display: inline-flex;
+   
+  border-bottom-left-radius: 0.5px solid gray;
+    font: inherit;
+    
+   
+
+   
+   
+}
+
+article, .featured-article, .other-articles {
+    border-bottom-left-radius: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+
+font: inherit;
+
+
+
+
+
+}
+
+*::after
+article ,.featured-article h2 {
+ 
+   
+   
+    
+  
+    position: relative;
+    
+   
+
+}
+*::before
+article ,.other-articles {
+    
+  justify-items: right;
+
+display: inline-block;
+
+
+font: inherit;
+vertical-align: baseline;
+
+position: relative;
+
+
+}
+
+
+
+
+
+
+.read-more {
+    color: black;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 50px;
+    align-items: flex;
+    font-size: small;
+    width: 78rem;
+    word-spacing: 0.5rem;
+    border-top: 0.5px solid gray;
+    
+    
+    
+}
+
